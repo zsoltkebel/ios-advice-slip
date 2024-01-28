@@ -11,7 +11,47 @@
 		AF7A1ACD2B66D35C000FD995 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A1ACC2B66D35C000FD995 /* ContentView.swift */; };
 		AF7A1ACF2B66D35D000FD995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7A1ACE2B66D35D000FD995 /* Assets.xcassets */; };
 		AF7A1AD32B66D35D000FD995 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7A1AD22B66D35D000FD995 /* Preview Assets.xcassets */; };
+		AF7A1AE02B66D3CD000FD995 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7A1ADF2B66D3CD000FD995 /* WidgetKit.framework */; };
+		AF7A1AE22B66D3CD000FD995 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7A1AE12B66D3CD000FD995 /* SwiftUI.framework */; };
+		AF7A1AE52B66D3CD000FD995 /* advice_slip_widgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A1AE42B66D3CD000FD995 /* advice_slip_widgetBundle.swift */; };
+		AF7A1AE72B66D3CD000FD995 /* advice_slip_widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A1AE62B66D3CD000FD995 /* advice_slip_widget.swift */; };
+		AF7A1AE92B66D3CF000FD995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7A1AE82B66D3CF000FD995 /* Assets.xcassets */; };
+		AF7A1AED2B66D3CF000FD995 /* advice_slip_widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AF7A1ADD2B66D3CD000FD995 /* advice_slip_widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF7A1AEB2B66D3CF000FD995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7A1ABF2B66D35C000FD995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7A1ADC2B66D3CD000FD995;
+			remoteInfo = advice_slip_widgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF7A1AF12B66D3CF000FD995 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF7A1AED2B66D3CF000FD995 /* advice_slip_widgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7A1B032B66E635000FD995 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AF7A1AC72B66D35C000FD995 /* advice_slip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = advice_slip.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +60,13 @@
 		AF7A1ACE2B66D35D000FD995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF7A1AD02B66D35D000FD995 /* advice_slip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = advice_slip.entitlements; sourceTree = "<group>"; };
 		AF7A1AD22B66D35D000FD995 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF7A1ADD2B66D3CD000FD995 /* advice_slip_widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = advice_slip_widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7A1ADF2B66D3CD000FD995 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AF7A1AE12B66D3CD000FD995 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AF7A1AE42B66D3CD000FD995 /* advice_slip_widgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advice_slip_widgetBundle.swift; sourceTree = "<group>"; };
+		AF7A1AE62B66D3CD000FD995 /* advice_slip_widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advice_slip_widget.swift; sourceTree = "<group>"; };
+		AF7A1AE82B66D3CF000FD995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7A1AEA2B66D3CF000FD995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF7A1ADA2B66D3CD000FD995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7A1AE22B66D3CD000FD995 /* SwiftUI.framework in Frameworks */,
+				AF7A1AE02B66D3CD000FD995 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				AF7A1AC92B66D35C000FD995 /* advice_slip */,
+				AF7A1AE32B66D3CD000FD995 /* advice_slip_widget */,
+				AF7A1ADE2B66D3CD000FD995 /* Frameworks */,
 				AF7A1AC82B66D35C000FD995 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				AF7A1AC72B66D35C000FD995 /* advice_slip.app */,
+				AF7A1ADD2B66D3CD000FD995 /* advice_slip_widgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +128,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AF7A1ADE2B66D3CD000FD995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A1ADF2B66D3CD000FD995 /* WidgetKit.framework */,
+				AF7A1AE12B66D3CD000FD995 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF7A1AE32B66D3CD000FD995 /* advice_slip_widget */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A1AE42B66D3CD000FD995 /* advice_slip_widgetBundle.swift */,
+				AF7A1AE62B66D3CD000FD995 /* advice_slip_widget.swift */,
+				AF7A1AE82B66D3CF000FD995 /* Assets.xcassets */,
+				AF7A1AEA2B66D3CF000FD995 /* Info.plist */,
+			);
+			path = advice_slip_widget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +158,35 @@
 				AF7A1AC32B66D35C000FD995 /* Sources */,
 				AF7A1AC42B66D35C000FD995 /* Frameworks */,
 				AF7A1AC52B66D35C000FD995 /* Resources */,
+				AF7A1AF12B66D3CF000FD995 /* Embed Foundation Extensions */,
+				AF7A1B032B66E635000FD995 /* Embed ExtensionKit Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AF7A1AEC2B66D3CF000FD995 /* PBXTargetDependency */,
 			);
 			name = advice_slip;
 			productName = advice_slip;
 			productReference = AF7A1AC72B66D35C000FD995 /* advice_slip.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AF7A1ADC2B66D3CD000FD995 /* advice_slip_widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7A1AEE2B66D3CF000FD995 /* Build configuration list for PBXNativeTarget "advice_slip_widgetExtension" */;
+			buildPhases = (
+				AF7A1AD92B66D3CD000FD995 /* Sources */,
+				AF7A1ADA2B66D3CD000FD995 /* Frameworks */,
+				AF7A1ADB2B66D3CD000FD995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = advice_slip_widgetExtension;
+			productName = advice_slip_widgetExtension;
+			productReference = AF7A1ADD2B66D3CD000FD995 /* advice_slip_widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +199,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					AF7A1AC62B66D35C000FD995 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					AF7A1ADC2B66D3CD000FD995 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -118,6 +220,7 @@
 			projectRoot = "";
 			targets = (
 				AF7A1AC62B66D35C000FD995 /* advice_slip */,
+				AF7A1ADC2B66D3CD000FD995 /* advice_slip_widgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +232,14 @@
 			files = (
 				AF7A1AD32B66D35D000FD995 /* Preview Assets.xcassets in Resources */,
 				AF7A1ACF2B66D35D000FD995 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7A1ADB2B66D3CD000FD995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7A1AE92B66D3CF000FD995 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +255,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF7A1AD92B66D3CD000FD995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7A1AE52B66D3CD000FD995 /* advice_slip_widgetBundle.swift in Sources */,
+				AF7A1AE72B66D3CD000FD995 /* advice_slip_widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF7A1AEC2B66D3CF000FD995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF7A1ADC2B66D3CD000FD995 /* advice_slip_widgetExtension */;
+			targetProxy = AF7A1AEB2B66D3CF000FD995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AF7A1AD42B66D35D000FD995 /* Debug */ = {
@@ -264,6 +392,7 @@
 		AF7A1AD72B66D35D000FD995 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = advice_slip/advice_slip.entitlements;
@@ -274,6 +403,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advice Slip";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -302,6 +432,7 @@
 		AF7A1AD82B66D35D000FD995 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = advice_slip/advice_slip.entitlements;
@@ -312,6 +443,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advice Slip";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -337,6 +469,65 @@
 			};
 			name = Release;
 		};
+		AF7A1AEF2B66D3CF000FD995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGYHUAQL5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = advice_slip_widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = advice_slip_widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsoltkebel.advice-slip.advice-slip-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF7A1AF02B66D3CF000FD995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGYHUAQL5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = advice_slip_widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = advice_slip_widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsoltkebel.advice-slip.advice-slip-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,6 +545,15 @@
 			buildConfigurations = (
 				AF7A1AD72B66D35D000FD995 /* Debug */,
 				AF7A1AD82B66D35D000FD995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7A1AEE2B66D3CF000FD995 /* Build configuration list for PBXNativeTarget "advice_slip_widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7A1AEF2B66D3CF000FD995 /* Debug */,
+				AF7A1AF02B66D3CF000FD995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
